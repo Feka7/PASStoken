@@ -1,0 +1,27 @@
+.nav.header {
+    background-color: black;
+}
+
+.nav-link.header {
+    color: white;
+    font-size: 2.5em;
+}
+
+.nav-link.header:hover {
+    color: white;
+}
+
+.col.main {
+    text-align: justify;
+    padding: 3em;
+}
+
+.col.footer {
+    text-align: center;
+}
+
+.footer {
+    background-color: grey;
+    padding: 2em;
+
+}

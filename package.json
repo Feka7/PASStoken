@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.0.0",
+    "@truffle/hdwallet-provider": "^1.2.6",
+    "copyfiles": "^2.4.1",
+    "dotenv": "^8.2.0",
+    "truffle-assertions": "^0.9.2"
+},
+"scripts": {
+    "copy" : "copyfiles -f build/contracts/PassToken.json client/src/contracts/",
+    "start_dapp" : "cd client && npm install && npm run build && serve -s build"
+  }
+}
